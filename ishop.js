@@ -1,4 +1,6 @@
-displayName: 'ShopTable',
+const ShopTable = React.createClass({
+
+    displayName: 'ShopTable',
 
     getDefaultProps: function () {
         return {
@@ -31,4 +33,3 @@ displayName: 'ShopTable',
         );
     },
 });
-
